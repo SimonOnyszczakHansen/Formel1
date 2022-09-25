@@ -1,53 +1,94 @@
-/*Frontpage*/
-
 .Top10Pic {
-    position: relative;
-    left: 150px;
-    width: 75px;
+    position: absolute;
+    left: 20%;
+    width: 4%;
+    bottom: 11%;
 }
 
 .Top10Text {
-    position: relative;
-    left: 162px;
+    position: absolute;
+    left: 20.5%;
+    bottom: 8%;
     color: white;
 }
 
 .howF1WorksPic {
-    position: relative;
-    left: 412px;
-    top: -100px;
-    width: 55px;
+    position: absolute;
+    left: 38%;
+    bottom: 11%;
+    width: 3%;
 }
 
 .howF1WorksText {
-    position: relative;
-    left: 393px;
-    top: -100px;
+    position: absolute;
+    left: 36.5%;
+    bottom: 8%;
     color: white;
 }
 
 .upcomingRacesPic {
-    position: relative;
-    left: 662px;
-    top: -203px;
-    width: 90px;
+    position: absolute;
+    right: 38%;
+    width: 5%;
+    bottom: 10.2%;
 }
 
 .upcomingRacesText {
-    position: relative;
-    left: 650px;
-    top: -210px;
+    position: absolute;
+    right: 37%;
+    bottom: 8%;
     color: white;
 }
 
-div {
-    background-color: lightslategray;
-    width: 100%;
-    height: 100px;
-    padding: 50px;
-    margin: 50px;
+.teamsPic {
+    position: absolute;
+    right: 20%;
+    width: 4%;
+    bottom: 11%;
+}
+
+.teamsText {
+    position: absolute;
+    right: 20.7%;
+    bottom: 8%;
+    color: white;
 }
 
 body {
+    width: 99%;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
     width: 100%;
 }
+
+ td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;    
+}
+th {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+#Teams {
+    width: 49.8%;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
